@@ -47,7 +47,7 @@ export default class List extends Component {
         return (
             <div>
                 {items.map(renderItem)}
-                {pageCount > 0 && !isLastPage && this.renderLoadMore}
+                {pageCount > 0 && !isLastPage && this.renderLoadMore()}
             </div>
         )
     }

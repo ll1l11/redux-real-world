@@ -72,8 +72,6 @@ class UserPage extends Component {
 }
 
 const mapStateToProps = (state, ownProps) => {
-    console.log('1 ', state)
-    console.log('2, ', ownProps)
     const login = ownProps.match.params.login.toLowerCase()
 
     const {
